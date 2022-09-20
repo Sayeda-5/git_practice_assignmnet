@@ -1,7 +1,7 @@
-function chkprime(num){
+function chkprime(number){
     let fac=0;
-    for(let a=0;a<=num;a++){
-        if(num%a==0){
+    for(let a=0;a<=number;a++){
+        if(number%a==0){
             fac++;
         }
     }
@@ -12,6 +12,6 @@ function chkprime(num){
 }
 
 
-let answer=chkprime(29);
+let ans=chkprime(29);
 
-console.log(answer);
+console.log(ans);
